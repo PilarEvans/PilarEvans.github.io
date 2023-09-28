@@ -19,7 +19,7 @@ a:focus, a:hover{
     font-style: italic;
     color:palevioletred;
     border: 3px purple;
-    border-style: dotted
+    border-style: dotted;
 }
 header h1 {
     font-size: 175%;
@@ -41,4 +41,13 @@ img {
 }
 shadow {
     text-shadow: 2px 2px 2px cornflowerblue;
+}
+article {
+    clear:both;
+    width: 70%;
+    float:left;
+    column-count: 2;
+    column-rule: 2px dotted palegreen;
+    column-gap: 2em;
+    margin-left: 2em;
 }
