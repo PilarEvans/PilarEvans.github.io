@@ -45,6 +45,7 @@ shadow {
 article {
     clear:both;
     float:left;
+    width: 70%;
     column-count: 2;
     column-rule: 2px dotted palegreen;
     column-gap: 2em;
@@ -59,5 +60,13 @@ article img{
     margin-bottom: 1em;
 }
 article p::first-letter {
-
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightseagreen;
+}
+aside{
+    width:20%;
+    float:right;
+    background-color: palegoldenrod;
 }
