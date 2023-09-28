@@ -1,7 +1,16 @@
+html{
+    background-image: linear-gradient(to bottom, white 0%, #000080 100%);
+}
 body{
+    width: 1000px;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
+    padding: 15px 1.5em;
+    border: 1px gold;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;    
 }
 a:focus, a:hover{
     font-style: italic;
@@ -19,6 +28,11 @@ header h2 {
 }
 img {
     float: left;
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+    border: 25px aqua;
+    border-radius: 100px;
 }
 shadow {
     text-shadow: 2px 2px 2px cornflowerblue;
@@ -29,9 +43,28 @@ main{
 main h3 {
     margin-top: 3em;
     font-size: 105%;
+    border: 5px aqua;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px navy;
+    padding: 1em;
+}
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed aqua;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px navy;
+    padding: .5em;
 }
 #list{
     line-height: 1.5em;
+
+}
+div.contact{
+    margin: 1.5em 2em 0em;
+    border: 5px dotted aqua;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px navy;
+    padding: 1em;
 }
 footer p.copyright {
     text-align: center;
