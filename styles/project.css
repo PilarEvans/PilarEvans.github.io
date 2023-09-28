@@ -72,8 +72,8 @@ aside{
     padding: 0.1em 1em 2em;
 }
 footer{
-    clear:both
-    border-top: 2px solid blue;
+    clear:both;
+    border-top:  2px solid blue;
 }
 footer p.copyright{
     text-align: center;
