@@ -1,6 +1,9 @@
+html{
+    background-image: linear-gradient(to left, white 0%, pink 100%);
+}
 
 nav {
-    background-color: #333; 
+    background-color:palevioletred; 
 }
 
 nav ul {
@@ -14,7 +17,7 @@ nav li {
 }
 
 nav a {
-    color: #fff; 
+    color:palevioletred; 
     text-decoration: none; /* Remove underline from links */
 }
 
