@@ -2,19 +2,8 @@ html{
     background-image: linear-gradient(to left, white 0%, pink 35%);
 }
 
-
 nav {
-    background-color:palevioletred; 
-    list-style-type: none; 
-    float: left; 
-    text-align: center;
-    display: block;
-    width: 175px;
-    padding: 1em 0;      
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    border-right: 2px solid white;
+    background-color: #333; 
 }
 
 nav ul {
@@ -25,15 +14,11 @@ nav ul {
 
 nav li {
     margin: 0 20px; 
-    float: left;
 }
 
 nav a {
-    color:white; 
+    color: #fff; 
     text-decoration: none; 
-    text-align: center;
-	display: block;
-	width: 175px;
 }
 
 
@@ -44,3 +29,4 @@ aside ol {
 aside ul {
     list-style-type: square; 
 }
+
