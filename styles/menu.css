@@ -1,0 +1,28 @@
+
+nav {
+    background-color: #333; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+}
+
+nav li {
+    margin: 0 20px; 
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for the aside list */
+aside ol {
+    list-style-type: upper-roman; /* Set list style for ordered list to upper-roman */
+}
+
+aside ul {
+    list-style-type: square; /* Set list style for unordered list to square */
+}
