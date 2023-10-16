@@ -33,14 +33,14 @@ nav li {
 
 nav a {
     color:palevioletred; 
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
 }
 
-/* Style for the aside list */
+
 aside ol {
-    list-style-type: upper-roman; /* Set list style for ordered list to upper-roman */
+    list-style-type: upper-roman; 
 }
 
 aside ul {
-    list-style-type: square; /* Set list style for unordered list to square */
+    list-style-type: square; 
 }
