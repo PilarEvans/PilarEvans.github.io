@@ -8,7 +8,8 @@ nav {
     float: left;
     text-align: center;
     display: block;
-    width: 175px;
+    width: 350px;
+    length: 200px;
     padding: 1em 0;      
     text-decoration: none;
     background-color: blue;
