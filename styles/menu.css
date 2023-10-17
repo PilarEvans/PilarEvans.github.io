@@ -9,7 +9,7 @@ nav {
     text-align: center;
     display: block;
     width: 350px;
-    padding: 0.5em;em 0;       
+    padding: 0.5em 0;       
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -32,6 +32,9 @@ nav a {
     text-decoration: none; 
 }
 
+article{
+    clear: left;
+}
 
 aside ol {
     list-style-type: upper-roman; 
