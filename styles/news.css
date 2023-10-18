@@ -77,12 +77,3 @@ footer p.copyright{
     background-color: aqua;
     padding: 1em;
 }
-p.fixed{
-    width:auto;
-    position: fixed;
-    bottom: 35%;
-    right: 0;
-    border:3px solid blue;
-    background-color: aqua;
-    padding: 1em;
-}
