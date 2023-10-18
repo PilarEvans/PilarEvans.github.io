@@ -46,7 +46,7 @@ aside {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: 5;
     background-color: pink;
     padding: 0.1em 1em 2em;
 }
