@@ -68,6 +68,7 @@ aside ul, aside li {
 footer p.copyright{
     text-align: center;
     font-size: 80%;
+    clear: left;
 }
 p.fixed{
     width:auto;
