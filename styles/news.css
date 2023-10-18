@@ -30,6 +30,7 @@ article {
     column-rule: 2px dotted cornflowerblue;
     column-gap: 2em;
     margin-left: 2em;
+    column-span: all;
 }
 
 article img {
