@@ -25,7 +25,13 @@ body {
 
 /* Article Styles */
 article {
-    width: 75%;
+    clear:both;
+    float:left;
+    width: 70%;
+    column-count: 2;
+    column-rule: 2px dotted palegreen;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
 article img {
