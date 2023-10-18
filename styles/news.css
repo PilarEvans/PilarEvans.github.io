@@ -1,0 +1,61 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Body Styles */
+body {
+    width: 95%;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Article Styles */
+article {
+    width: 75%;
+}
+
+article img {
+    float: left;
+    margin: 10px;
+}
+
+/* Aside Styles */
+aside {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+aside ul {
+    list-style-type: upper-roman;
+}
+
+aside ul, aside li {
+    padding: 0;
+    margin: 0;
+}
+
+/* Large, bold, and italic text */
+.large-bold-italic {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+}
