@@ -41,10 +41,10 @@ article img {
 
 
 aside {
-    width: 20%;
+    width: 10%;
     position: fixed;
     background-color: pink;
-    padding: 1em 1em 2em;
+    padding: 0em 3em 1em 2em;
     float: right;
 }
 
