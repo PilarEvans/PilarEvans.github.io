@@ -69,3 +69,16 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;
+}
+p.fixed{
+    width:auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border:3px solid blue;
+    background-color: aqua;
+    padding: 1em;
+}
