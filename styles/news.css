@@ -45,7 +45,8 @@ aside {
     right: 0;
     bottom: 0;
     background-color: pink;
-    padding: 20px;
+    padding:0.1em 1em 2em; 
+    float: right;
 }
 
 aside ul {
