@@ -49,6 +49,7 @@ aside {
     bottom: 5;
     background-color: pink;
     padding: 0.1em 2em 2em;
+    border: 2px solid red;
 }
 
 aside ul {
