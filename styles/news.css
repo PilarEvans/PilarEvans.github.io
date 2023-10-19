@@ -1,25 +1,28 @@
-nav ul {
-    list-style: none;
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em;
+    margin: 1em;
+    height: fit-content;
+    border-bottom: 5px solid rgb(77, 9, 237);
+}
+
+#nav_menu ul li {
+    float: left;
+    margin-right: 2px;
+    position: relative;
+    border-bottom: 2px solid rgb(77, 9, 237);
+}
+
+#nav_menu ul li a {
+    text-align: center;
     display: block;
     width: 175px;
-    padding: 1em,0;
+    padding: 1em 0;
     text-decoration: none;
-    background-color:plum;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin: 0 10px;
-    border-right: none;
-    color: aliceblue;
-}
-
-nav a {
-    text-decoration: none;
+    background-color: plum;
     color: white;
     font-weight: bold;
-}
+    border-right: 2px solid white;
 
 body {
     width: 95%;
