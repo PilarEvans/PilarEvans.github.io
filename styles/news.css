@@ -33,6 +33,9 @@ article {
     column-span: all;
 }
 
+article h1 {
+    color: hotpink;
+}
 article img {
     float: left;
     margin-right: 1em;
