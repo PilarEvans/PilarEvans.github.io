@@ -40,15 +40,15 @@ html, body {
     max-width: 760px;
   }
   
-  /* Styles for footer */
+  
   footer {
     border-top: 2px solid #f46b45;
     text-align: center;
     font-size: 0.8em;
   }
   
-  /* Media query for small screens */
-  @media screen and (max-width: 700px) {
+  
+  @media screen and (max-width: 700px) 
     .menu-button-container {
       display: flex;
     }
@@ -93,7 +93,7 @@ html, body {
       border-bottom: 1px solid #444;
     }
   
-    /* Adjusted styles for small screens */
+  
     article h2 {
       font-size: 1.1em;
     }
@@ -107,4 +107,4 @@ html, body {
       text-align: center;
       font-size: 0.6em;
     }
-  }
+  
