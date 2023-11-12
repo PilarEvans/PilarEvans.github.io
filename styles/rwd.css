@@ -4,7 +4,7 @@ html, body {
     font-size: 100%;
   }
   
-  * {
+   {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
   }
@@ -20,7 +20,6 @@ html, body {
     text-decoration: underline;
   }
   
-  /* Styles for article */
   article {
     padding: 0 1em;
   }
