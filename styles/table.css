@@ -34,10 +34,23 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
-body, h1, h2, p, table {
-    margin: 0;
-    padding: 0;
-}
+
+    table.third {    
+        border-collapse: collapse; 
+        border: 2px solid purple;   
+        caption-side: bottom;
+    }
+    table.third th {
+        background-color: salmon;
+    }
+    table.third th, table.third td {
+        padding: 0.7em;  
+        vertical-align: middle;
+        border: 2px solid orangered;
+    }
+    table.third thead tr:first-child{     
+        border-bottom: 2px solid orangered;
+    }
 
 table.third td:first-child {
     vertical-align: top;
