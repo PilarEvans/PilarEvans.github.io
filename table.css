@@ -34,4 +34,26 @@ html, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+table.third td:first-child {
+    vertical-align: top;
+}
+
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+}
+
+table.third thead tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+table.third tbody tr {
+    border-bottom: 1px solid #ccc; 
+}
+
+
     
